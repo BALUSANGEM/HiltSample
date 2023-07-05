@@ -3,7 +3,7 @@ package com.nosort.hiltfirst
 class LocalCryptoCurrencyRepository : CryptoCurrencyRepository {
     override fun getAll(): List<CryptoCurrency> = listOf(
         CryptoCurrency(
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/BTC_Logo.svg/1200px-BTC_Logo.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/300px-Bitcoin.svg.png",
             "BitCoin"
         ),
         CryptoCurrency(
